@@ -9,6 +9,24 @@ Building a game engine from scratch is a massive undertaking, typically requirin
 
 ## Core Architecture & Subsystems
 
+graph TD
+    ENTRY((1. Entry Point))
+    INPUT((2. Input System))
+    RENDER((3. Renderer))
+    DEBUG((4. Debugging))
+    GAMEPLAY((5. Gameplay))
+
+    ENTRY -- Initializes --> LOOP((Game Loop))
+    LOOP -- 1. Poll --> INPUT
+    LOOP -- 2. Logic --> GAMEPLAY
+    LOOP -- 3. Render --> RENDER
+    LOOP -- 4. Profile --> DEBUG
+
+    INPUT -- Events --> ENTRY
+    GAMEPLAY -- Memory --> DEBUG
+    RENDER -- Assets --> GAMEPLAY
+    GAMEPLAY -- Entities --> LOOP
+
 A game engine is composed of several critical systems working together. The roadmap for this engine includes:
 
 ### 1. Entry Point & Application Layer
