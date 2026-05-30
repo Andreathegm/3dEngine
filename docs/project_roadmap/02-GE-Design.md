@@ -27,7 +27,7 @@ graph TD
     GAMEPLAY -- Memory --> DEBUG
     RENDER -- Assets --> GAMEPLAY
     GAMEPLAY -- Entities --> LOOP
-
+```
 A game engine is composed of several critical systems working together. The roadmap for this engine includes:
 
 ### 1. Entry Point & Application Layer
