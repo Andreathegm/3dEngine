@@ -4,7 +4,7 @@
 
 Building a game engine from scratch is a massive undertaking, typically requiring large teams and extensive resources. Since this is a duo project, compromises and a realistic scope are necessary. 
 
-* **Built-in Tooling:** Rather than building standalone, complex desktop applications for tools (like a [WPF](related_concepts/WPF.md) level editor), tools such as the level editor will be built directly into the engine's runtime using libraries like ImGui.
+* **Built-in Tooling:** Rather than building standalone, complex desktop applications for tools (like a [WPF](/docs/related_concepts/WPF.md) level editor), tools such as the level editor will be built directly into the engine's runtime using libraries like ImGui.
 * **Initial Constraints:** To accelerate early development, the engine will initially target **Windows only** and use **OpenGL only**. However, the codebase will be strictly abstracted so that other platforms (Mac, Linux) and APIs (DirectX, Vulkan, Metal) can be supported later without a full rewrite.
 
 ## Core Architecture & Subsystems
