@@ -2,7 +2,7 @@
 
 ## Overview
 
-The goal of this project is to build a game engine from scratch, primarily using C++ (with potential use of other languages like C#). A game engine is essentially a platform used to build interactive applications. While primarily used for video games, engines can also power VR applications, simulations, and architectural visualizations [3].
+The goal of this project is to build a game engine from scratch, primarily using C++ (with potential use of other languages like C#). A game engine is essentially a platform used to build interactive applications. While primarily used for video games, engines can also power VR applications, simulations, and architectural visualizations.
 
 ## Core Definition
 
