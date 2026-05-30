@@ -9,6 +9,7 @@ Building a game engine from scratch is a massive undertaking, typically requirin
 
 ## Core Architecture & Subsystems
 
+```mermaid
 graph TD
     ENTRY((1. Entry Point))
     INPUT((2. Input System))
