@@ -1,0 +1,2 @@
+# WPF Level Editor
+A tool built with Windows Presentation Foundation (WPF) for designing, editing, and exporting game levels. This editor acts as a bridge between game designers and the underlying game engine.
